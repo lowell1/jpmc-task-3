@@ -33,13 +33,5 @@ export class DataManipulator {
       trigger_alert:
         ratio > upperBound || ratio < lowerBound ? ratio : undefined,
     };
-
-    // return serverRespond.map((el: any) => {
-    //   return {
-    //     stock: el.stock,
-    //     top_ask_price: (el.top_ask && el.top_ask.price) || 0,
-    //     timestamp: el.timestamp,
-    //   };
-    // });
   }
 }
